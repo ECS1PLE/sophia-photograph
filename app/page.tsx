@@ -1,6 +1,7 @@
 import BlockwithPhoto from "./components/Blocks/BlockWithPhoto";
 import IntroBlock from "./components/Blocks/IntroBlock";
 import PhotosBlock from "./components/Blocks/PhotosBlock";
+import ServiceBlocks from "./components/Blocks/ServicesBlock";
 import Container from "./components/Container/Container";
 import Header from "./components/Text/Header";
 import TextBlock from "./components/Text/TextBlock";
@@ -26,6 +27,8 @@ export default function Home() {
         передавать энергию людей через снимки, это отличает меня от остальных фотографов.
       </TextBlock>
       <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
+      <Header textRu="УСЛУГИ" textEn="services" />
+      <ServiceBlocks />
     </Container>
   );
 }
