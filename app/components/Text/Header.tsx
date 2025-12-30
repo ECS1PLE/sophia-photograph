@@ -10,7 +10,7 @@ interface Header {
 const Header: React.FC<Header> = ({ textRu, textEn }) => {
   const isMobile = useMobile(); 
   return (
-    <section className="flex w-full max-w-[584px] justify-between mx-auto">
+    <section className="flex w-[95%] max-w-[584px] justify-between mx-auto">
       <h3
         className={`text-[#1B1919]  ${
           isMobile ? "text-[40px]" : "text-[56px]"

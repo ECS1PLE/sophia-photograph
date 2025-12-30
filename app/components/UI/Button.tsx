@@ -6,7 +6,7 @@ interface Button {
 
 const Button:React.FC<Button> = ({children}) => {
     return (
-        <div className="flex max-w-[355px] w-full h-[53px] border-[1px] border-[#000000] justify-center mx-auto cursor-pointer">
+        <div className="flex max-w-[355px] w-[98%] h-[53px] border-[1px] border-[#000000] justify-center mx-auto cursor-pointer">
             <p className={`${bethEllen.className} text-[23px] m-[0px] p-[0px] leading-[2]`}>{children}</p>
         </div>
     )
