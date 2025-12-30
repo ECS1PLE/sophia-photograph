@@ -1,4 +1,4 @@
-import { bethEllen, bigshotOne } from "@/app/utils/fonts";
+import { bethEllen, bigshotOne } from "@/app/fonts/fonts";
 
 interface BlockWithPhotoProps {
   imageSrc: string;
@@ -17,10 +17,10 @@ const BlockWithPhoto: React.FC<BlockWithPhotoProps> = ({
         style={{ backgroundImage: `url(${imageSrc})` }}
         >
         <div className="flex flex-col relative z-10 gap-[12px]">
-            <p className={`${bethEllen.className} text-[28px] text-[#C42525] m-[0px] leading-none`}>
+            <p className={`${bethEllen.className} w-auto text-[20px] sm:text-[28px] text-[#C42525] m-[0px] leading-none`}>
                 {bethText}
             </p>
-            <h3 className={`${bigshotOne.className} text-[64px] text-[#C42525] m-[0px] leading-none`}>
+            <h3 className={`${bigshotOne.className} text-[40px] sm:text-[64px] text-[#C42525] m-[0px] leading-none`}>
                 {bigshotText}
             </h3>
         </div>
