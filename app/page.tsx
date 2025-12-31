@@ -29,6 +29,9 @@ export default function Home() {
       <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
       <Header textRu="УСЛУГИ" textEn="services" />
       <ServiceBlocks />
+      <Header textRu="ПОРТФОЛИО" textEn="photos" />
+      <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
+      <Header textRu="КОНТАКТЫ" textEn="contacts" />
     </Container>
   );
 }
