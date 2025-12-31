@@ -1,10 +1,12 @@
 import BlockwithPhoto from "./components/Blocks/BlockWithPhoto";
+import ContactBlocks from "./components/Blocks/ContactBlocks";
 import IntroBlock from "./components/Blocks/IntroBlock";
 import PhotosBlock from "./components/Blocks/PhotosBlock";
 import ServiceBlocks from "./components/Blocks/ServicesBlock";
 import Container from "./components/Container/Container";
 import Header from "./components/Text/Header";
 import TextBlock from "./components/Text/TextBlock";
+import Contact from "./components/UI/Contact";
 import { unna } from "./fonts/fonts";
 
 export default function Home() {
@@ -32,6 +34,7 @@ export default function Home() {
       <Header textRu="ПОРТФОЛИО" textEn="photos" />
       <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
       <Header textRu="КОНТАКТЫ" textEn="contacts" />
+      <ContactBlocks />
     </Container>
   );
 }

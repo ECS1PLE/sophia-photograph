@@ -1,8 +1,9 @@
-// fonts/fonts.ts
+
 import { 
   Beth_Ellen, 
   Bigshot_One, 
-  Unna 
+  Unna, 
+  Azeret_Mono 
 } from 'next/font/google';
 
 export const bethEllen = Beth_Ellen({
@@ -21,4 +22,10 @@ export const unna = Unna({
   subsets: ['latin'],
   weight: ['400', '700'],
   variable: '--font-unna',
+});
+
+export const azaretMono = Azeret_Mono({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-azeret-mono',
 });
