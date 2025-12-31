@@ -31,7 +31,7 @@ const Contact: React.FC<ContactProps> = ({ icon, children }) => {
     <div
       className={`flex gap-[8px] mx-auto justify-center border-[1px] 
         border-[#000] h-[52px] w-full 
-        ${isMobile ? "w-[95%]" : "max-w-[355px]"}
+        ${isMobile ? "" : "max-w-[355px]"}
         cursor-pointer
     `}
     >
