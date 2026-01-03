@@ -20,7 +20,7 @@ const ServiceBlocks = () => {
             <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData} />
             <PriceBlock price="1500"/>
             <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData2} className="sm:w-[419px]"/>
-            <PriceBlock price="8000"/>
+            <PriceBlock price="2100"/>
         </div>
     ) 
 }
