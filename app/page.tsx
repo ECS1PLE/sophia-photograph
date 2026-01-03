@@ -28,11 +28,11 @@ export default function Home() {
         мой уникальный навык - <br />
         передавать энергию людей через снимки, это отличает меня от остальных фотографов.
       </TextBlock>
-      <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
+      <PhotosBlock img1="./images/photo1.jpg" img2="./images/photo2.jpg" img3="./images/photo3.jpg"/>
       <Header textRu="УСЛУГИ" textEn="services" />
       <ServiceBlocks />
       <Header textRu="ПОРТФОЛИО" textEn="photos" />
-      <PhotosBlock img1="./images/photo1.png" img2="./images/photo1.png" img3="./images/photo1.png"/>
+      <PhotosBlock img1="./images/photo4.jpg" img2="./images/photo5.jpg" img3="./images/photo6.jpg"/>
       <Header textRu="КОНТАКТЫ" textEn="contacts" />
       <ContactBlocks />
     </Container>
