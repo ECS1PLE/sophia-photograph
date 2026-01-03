@@ -12,7 +12,7 @@ const PriceBlock: React.FC<PriceBlock> = ({ price }) => {
   return (
     <div
       className={`flex border-[1px] border-[#000] 
-        ${isMobile ? "w-[95%]" : "max-w-[514px]"}
+        ${isMobile ? "w-[95%]" : "max-w-[567px]"}
         ${isMobile ? "" : "w-full"}
         ${isMobile ? "px-[0px]" : "px-[16px]"}
          mx-auto h-[52px] justify-between items-center `}

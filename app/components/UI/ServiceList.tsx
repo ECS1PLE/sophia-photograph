@@ -6,14 +6,16 @@ import useMobile from "@/app/hooks/isMobile";
 interface ServiceList {
   title: string;
   services: { name: string; }[]; 
+  className?: string;
 }
 
-const ServiceList: React.FC<ServiceList> = ({ title, services }) => {
+const ServiceList: React.FC<ServiceList> = ({ title, services, className }) => {
   const isMobile = useMobile();
   return (
     <div className={`pt-[42px] pb-[12px] flex flex-col mx-auto border-[1px] border-[#000] 
     ${isMobile ? "px-[0px]" : "px-[90px]"}
-    ${isMobile ? "w-[95%]" : "max-w-[530px]"}
+    ${isMobile ? "w-[95%]" : "max-w-[514px]"}
+    ${className}
     `}>
       <h3 className={`${bigshotOne.className} 
       ${isMobile ? "text-[30px]" : "text-[36px]"}
