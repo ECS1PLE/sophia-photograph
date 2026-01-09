@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Container>
       <BlockwithPhoto 
-        imageSrc="./images/background.png" 
+        imageSrc="./images/background2.png" 
         bethText="Saint-Peresburg" 
         bigshotText="PHOTOGRAPHER"
       />
