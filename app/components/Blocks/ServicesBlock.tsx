@@ -17,9 +17,9 @@ const ServiceBlocks = () => {
       ]
     return (
         <div className="flex flex-col gap-[32px] relative">
-            <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData} />
+            <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData} className="max-w-[601px]"/>
             <PriceBlock price="1500"/>
-            <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData2} className="sm:w-[419px]"/>
+            <ServiceList title="СЪЕМКА НА КАМЕРУ" services={serviceData2} className="sm:w-[419px] max-w-[601px]"/>
             <PriceBlock price="2100"/>
         </div>
     ) 
