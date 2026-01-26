@@ -14,7 +14,7 @@ const ServiceList: React.FC<ServiceList> = ({ title, services, className }) => {
   return (
     <div className={`pt-[42px] pb-[12px] flex flex-col mx-auto border-[1px] border-[#000] 
     ${isMobile ? "px-[0px]" : "px-[90px]"}
-    ${isMobile ? "w-[95%]" : "max-w-[514px]"}
+    ${isMobile ? "w-[95%]" : ""}
     ${className}
     `}>
       <h3 className={`${bigshotOne.className} 
